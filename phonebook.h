@@ -12,7 +12,7 @@ struct NODE{
 };
 
 NODE *head = NULL;
-NODE *newNode;
+NODE *newNode = NULL;
 NODE *temp;
 int len = 0;
 char pause;
