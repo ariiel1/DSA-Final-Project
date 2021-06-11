@@ -16,8 +16,7 @@ void addContact(){
     cin >> newNode->number;
     cout << "Enter e-mail Address: ";
     cin >> newNode->email;
-    
-    newNode->next = NULL;
+   
     
     if(head == NULL){
         head = newNode;
