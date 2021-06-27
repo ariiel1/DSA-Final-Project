@@ -19,7 +19,8 @@ char pause;
 
 void addContact ();
 void display ();
+void searchCase(NODE *search);
 void searchContact ();
 void deleteContact ();
+void editContact();
 void menu ();
-
